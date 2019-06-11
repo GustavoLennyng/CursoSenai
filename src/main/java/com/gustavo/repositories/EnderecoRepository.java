@@ -3,9 +3,9 @@ package com.gustavo.repositories;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.gustavo.domain.Cliente;
+import com.gustavo.domain.Endereco;
 
 @Repository
-public interface EnderecoRepository extends JpaRepository<Cliente, Integer>{
+public interface EnderecoRepository extends JpaRepository<Endereco, Integer>{
 	
 }
